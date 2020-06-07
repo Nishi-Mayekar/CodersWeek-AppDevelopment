@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/calci_btn"
+        android:layout_width="189dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="79dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="344dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="Calculator"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/counter_btn" />
+
+    <Button
+        android:id="@+id/counter_btn"
+        android:layout_width="189dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="492dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="Counter"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="189dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="Location"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calci_btn" />
+
+    <Button
+        android:id="@+id/signOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="@android:color/holo_purple"
+        android:text="Sign Out"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
